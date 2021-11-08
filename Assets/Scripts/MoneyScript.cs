@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 
 public class MoneyScript : MonoBehaviour
 {
@@ -9,16 +10,17 @@ public class MoneyScript : MonoBehaviour
     public GameObject moneyPanel;
     public Text moneyText;
     public Text codeText;
-    public int moneyValue = 0;
+    public float moneyValue = 0;
 
     void Start()
     {
-        
+        moneyValue = PlayerPrefs.GetFloat("moneyValue");
     }
 
     void Update()
     {
-        moneyText.text = "Money: " + moneyValue;
+        PlayerPrefs.SetFloat("moneyValue", moneyValue);
+        moneyText.text = "Money: " + Math.Round(PlayerPrefs.GetFloat("moneyValue", moneyValue), 2);
     }
 
     public void AddMoney()

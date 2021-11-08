@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using Random = UnityEngine.Random;
 
 public class CanvasScript : MonoBehaviour
 {
@@ -21,6 +23,10 @@ public class CanvasScript : MonoBehaviour
     public GameObject minesSet;
 
     public GameObject betField;
+
+    public Text cashOutText;
+
+    public GameObject money;
     
     void Start()
     {
@@ -34,6 +40,8 @@ public class CanvasScript : MonoBehaviour
             PlaceMines();
             isGameStarted = false;
         }
+
+        cashOutText.text = "CASHOUT " + ButtonScript.cashOutMoney;
     }
 
     public void PlaceMines()
@@ -42,8 +50,6 @@ public class CanvasScript : MonoBehaviour
 
         for (int i=0; i<bombPlace.Length; i++)
         {
-            
-
             bombDub = false;
 
             bombPlaceCheck = Random.Range (0,25);
@@ -85,6 +91,7 @@ public class CanvasScript : MonoBehaviour
             {
                 starButton[i].GetComponent<ButtonScript>().HideAllButtons();
                 starButton[i].GetComponent<ButtonScript>().bombCheck = false;
+                starButton[i].GetComponent<ButtonScript>().alreadyMonkey = false;
             }
 
             bombPlace = new int[minesSet.GetComponent<MinesSetScript>().numberOfMines];
@@ -107,6 +114,10 @@ public class CanvasScript : MonoBehaviour
         {
             bombExploded = true;
             isInGame = false;
+            Math.Round(money.GetComponent<MoneyScript>().moneyValue +=(float) ButtonScript.cashOutMoney,2);
+            ButtonScript.cashOutMoney = 0;
+            ButtonScript.multiplier = 0;
+            ButtonScript.monkeyCount = 0;
             betField.SetActive(true);
         }
     }

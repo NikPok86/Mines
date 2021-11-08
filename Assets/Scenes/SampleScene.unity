@@ -980,8 +980,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: -200}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 131, y: -223.4}
+  m_SizeDelta: {x: 262, y: 96.72543}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1124507056
 MonoBehaviour:
@@ -1675,11 +1675,11 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 4
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: CashOut
 --- !u!222 &1800009930
@@ -2659,96 +2659,191 @@ PrefabInstance:
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
+    - target: {fileID: 3540261005098626354, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
     - target: {fileID: 3540261005145930206, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: betField
+      value: 
+      objectReference: {fileID: 1635964124}
+    - target: {fileID: 3540261005145930206, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261005271494146, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261005271494146, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261005423185207, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261005423185207, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261005510018733, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261005510018733, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261005600360585, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261005600360585, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261005940583915, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261005940583915, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006029848243, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006029848243, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006087633151, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006087633151, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006192438666, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006192438666, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006294688277, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006294688277, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006337597173, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006337597173, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006443835022, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006443835022, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006496312969, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006496312969, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006598448719, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006598448719, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006598645044, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006598645044, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006621154854, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006621154854, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006751036339, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006751036339, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006825868609, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006825868609, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
-      propertyPath: betField
+      propertyPath: minesSet
       value: 
-      objectReference: {fileID: 1635964124}
+      objectReference: {fileID: 2010834376}
     - target: {fileID: 3540261006825868611, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: m_Name
@@ -2759,36 +2854,71 @@ PrefabInstance:
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
+    - target: {fileID: 3540261006873375804, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
     - target: {fileID: 3540261006974109979, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: betField
+      value: 
+      objectReference: {fileID: 1635964124}
+    - target: {fileID: 3540261006974109979, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006985193226, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006985193226, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261006986786361, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261006986786361, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
+    - target: {fileID: 3540261007045472051, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
     - target: {fileID: 3540261007045472051, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
-      propertyPath: betField
+      propertyPath: minesSet
       value: 
-      objectReference: {fileID: 1635964124}
+      objectReference: {fileID: 2010834376}
     - target: {fileID: 3540261007089614873, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
       value: 
       objectReference: {fileID: 1635964124}
+    - target: {fileID: 3540261007089614873, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: minesSet
+      value: 
+      objectReference: {fileID: 2010834376}
     - target: {fileID: 8961938411566046086, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8961938411566046087, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: money
+      value: 
+      objectReference: {fileID: 592022149}
     - target: {fileID: 8961938411566046087, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: betField
@@ -2799,6 +2929,11 @@ PrefabInstance:
       propertyPath: minesSet
       value: 
       objectReference: {fileID: 2010834376}
+    - target: {fileID: 8961938411566046087, guid: c0c97a86d8899394e97a69b243555c47,
+        type: 3}
+      propertyPath: cashOutText
+      value: 
+      objectReference: {fileID: 1800009929}
     - target: {fileID: 8961938411566046107, guid: c0c97a86d8899394e97a69b243555c47,
         type: 3}
       propertyPath: m_Pivot.x
